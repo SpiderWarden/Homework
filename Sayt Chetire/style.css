@@ -1,0 +1,28 @@
+.sans {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lorem1 {
+    text-decoration: line-through;
+}
+
+.lorem2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wave {
+    color: purple;
+    text-shadow: 1px 1px 1px rgb(146, 113, 146);
+    text-decoration: overline wavy;
+    word-spacing: 30px;
+}
+
+.double {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
