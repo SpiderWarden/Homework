@@ -1,0 +1,239 @@
+body {
+    background: #181E34;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+/*==============ХЕДЕР===========================*/
+
+header {
+    padding: 30px 0 36px 0;
+}
+
+.H1 {
+    display: flex;
+    align-items: center;
+}
+
+.H2 {
+    margin-left: auto;
+}
+
+.ul {
+    display: flex;
+}
+
+.li1 {
+    margin-right: 30px;
+}
+
+.HB {
+    color: blue;
+    background: #fff;
+    border-radius: 100px;
+    padding: 14px 30px;
+}
+
+/*==================МЭЙН=ПРИВЕТСТВЕННЫЙ============================*/
+
+.hero {
+    padding: 120px 0;
+    background: url(../img/BG.jpg) 10% 50%/ cover no-repeat;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.text-knopki {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 436px;
+}
+
+.p {
+    margin-bottom: 15px;
+}
+
+.span {
+    color: #01a2cb;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.knopki {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+}
+
+.knopka1 {
+    background: linear-gradient(180.00deg, #00A4CC, #2766AE);
+    border-radius: 100px;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.knopka2 {
+    background: linear-gradient(95.2deg, #00A4CC 6.7%, #2766AE 91.35%);
+    border-radius: 100px;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.knopka2 img {
+    margin-left: 4px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+/*=============МЕЙН=КАРТОЧНЫЙ===============================*/
+
+.nothero {
+    padding: 120px 0;
+}
+
+.title2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.nothero-text {
+    text-align: center;
+    margin-bottom: 60px;
+    max-width: 513px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.nothero-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+    margin-bottom: -28px;
+    padding-bottom: 30px;
+}
+
+.nothero-li {
+    flex: 0 0 25%;
+    margin-bottom: 28px;
+    padding: 0 14px;
+}
+
+.nothero-li-in {
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    box-shadow: 4px 4px 13px 0px #050d29c2;
+    background: #197cb8;
+    padding: 28px;
+}
+
+.nothero-title {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nothero-text-item {
+    text-align: center;
+}
+
+.knopka1-1 {
+    background: linear-gradient(180.00deg, #00A4CC, #2766AE);
+    border-radius: 100px;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 436px;
+    margin: 0 auto;
+}
+
+/*======ФУТЕР==============================================*/
+
+.footer {
+    box-sizing: border-box;
+    border-top: 1px solid #323952;
+    padding: 60px 0;
+}
+
+.footer-in {
+    display: flex;
+}
+
+.footer-img-text {
+    max-width: 267px;
+    margin-right: auto;
+}
+
+
+.footer-img-text img {
+    margin-bottom: 15px;
+}
+
+
+.dva-spiska {
+    display: flex;
+}
+
+.stolbik {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.spisok-1 {
+    align-items: center;
+    max-width: 204px;
+    width: 100%;
+    margin-right: 80px;
+}
+
+
+.spisok-1-li {
+    margin-bottom: 10px;
+}
+
+.spisok2 {
+    max-width: 204px;
+    width: 100%;
+    margin-left: 80px;
+}
+
+
+.spisok2-li {
+    margin-bottom: 10px;
+}
