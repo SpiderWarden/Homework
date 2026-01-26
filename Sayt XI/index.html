@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="block">
+        <span>Ваши данные</span>
+            <div>
+                <label class="block__item">Имя</label>
+                <input type="text" required placeholder="Имя">
+
+            </div>
+            <div>
+                <label class="block__item"> Возраст</label>
+                <input type="number" required placeholder="Возраст">
+            </div>
+            <div>
+                <label class="block__item"> Номер телефона</label>
+                <input type="tel" inputmode="tel" required placeholder="Номер телефона">
+
+            </div>
+            <div>
+                <label class="block__item"> Электронная почта</label>
+                <input type="email" inputmode="email" required placeholder="Электронная почта">
+            </div>
+            <div>
+                <label class="block__item"> Коментарий</label>
+                <textarea type="text" placeholder="Коментарий"></textarea>
+            </div>
+            <div>
+                <label class="block__item">
+                    <input type="checkbox" required> Я принимю условия<br> <a href="#">пользовательского соглашения</a>
+                </label>
+            </div>
+            <button type="submit">Отправить</button>
+    </form>
+
+</body>
+
+</html>
